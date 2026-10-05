@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jev Vote Explorer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <h1>Jev Vote Explorer</h1>
+      <label>Run <select id="run-select"></select></label>
+    </header>
+    <section id="run-summary"></section>
+    <main class="layout">
+      <aside id="participant-list"></aside>
+      <section id="participant-detail"></section>
+    </main>
+    <div id="tooltip" role="tooltip" hidden></div>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "jev-polis-proxy-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch-data": "tsx scripts/fetch.ts",
+    "participants": "tsx scripts/participants.ts",
+    "impute": "tsx scripts/impute.ts",
+    "explore": "vite web",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0",
+    "csv-parse": "^7.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  }
+}
