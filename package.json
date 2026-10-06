@@ -1,5 +1,5 @@
 {
-  "name": "jev-polis-proxy-tests",
+  "name": "polis-jev-imputate-simulation",
   "private": true,
   "type": "module",
   "scripts": {
