@@ -1,4 +1,4 @@
-# polis-jev-imputate-simulation
+# polis-jev-impute-simulation
 
 Impute missing Polis votes (AGREE / DISAGREE / PASS) with [TypeSafe's Jev](https://docs.typesafe.ai), then explore whether the results feel consistent with each participant. Intent: [docs/intent/polis-vote-imputation.md](docs/intent/polis-vote-imputation.md).
 
